@@ -1,0 +1,102 @@
+<resources>
+    <!-- Strings related to Settings -->
+    <string name="title_activity_settings">Settings</string>
+    <!-- location -->
+    <string name="pref_title_location">Location</string>
+    <string name="pref_key_location">location</string>
+    <string name="pref_default_location">PLUM CREEK</string>
+    <string name="pref_description_location">Identifies location associated with GreenButton data.</string>
+    <!-- exploration period -->
+    <string name="pref_title_period">Exploration Period</string>
+    <string name="pref_key_period">period</string>
+    <string name="pref_default_period">24</string>
+    <string name="pref_description_period">Exploration period defines how much GreenButton data to retain.</string>
+    <string-array name="pref_period_list_entries">
+        <item>1 Month</item>
+        <item>3 Months</item>
+        <item>12 Months</item>
+        <item>24 Months</item>
+    </string-array>
+    <string-array name="pref_period_list_values">
+        <item>1</item>
+        <item>3</item>
+        <item>12</item>
+        <item>24</item>
+    </string-array>
+    <!-- dups treatment -->
+    <string name="pref_title_dups">Duplicate Entry Treatment</string>
+    <string name="pref_key_dups">dups</string>
+    <string name="pref_default_dups">ignore</string>
+    <string name="pref_description_dups">Ignore any duplicate entries, Replace with latest entry, prompt.</string>
+    <string-array name="pref_dups_list_entries">
+        <item>Ignore</item>
+        <item>Replace</item>
+        <item>Prompt</item>
+    </string-array>
+    <string-array name="pref_dups_list_values">
+        <item>ignore</item>
+        <item>replace</item>
+        <item>prompt</item>
+    </string-array>
+    <string name="pref_ignore_value">ignore</string>
+    <string name="pref_replace_value">replace</string>
+    <string name="pref_prompt_value">prompt</string>
+
+
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+</resources>

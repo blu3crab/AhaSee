@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="@dimen/activity_horizontal_margin"
+              android:layout_marginTop="@dimen/activity_vertical_margin"
+              android:id="@+id/frag_sum_detail">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/detail_text">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/labels">
+
+                <TextView
+                    android:id="@+id/textViewTotalYearLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/total_year_label_kwh"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/textViewRollingYearLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/rolling_year_label_kwh"
+                    android:textColor="@color/aquagreen"/>
+
+                <TextView
+                    android:id="@+id/textViewTotalAveMoLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/total_avemo_label_kwh"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/textViewRollingAveMoLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/rolling_avemo_label_kwh"
+                    android:textColor="@color/aquagreen"/>
+
+                <TextView
+                    android:id="@+id/textViewRollingPeakMoLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/rolling_peakmo_label_kwh"
+                    android:textColor="@color/aquagreen"/>
+
+                <TextView
+                    android:id="@+id/textViewRollingLowMoLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/rolling_lowmo_label_kwh"
+                    android:textColor="@color/aquagreen"/>
+
+                <TextView
+                    android:id="@+id/textViewLastMoLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/rolling_lowmo_label_kwh"
+                    android:textColor="@color/aquagreen"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:id="@+id/info">
+
+                <TextView
+                    android:id="@+id/textViewTotalYear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="24000 KwH"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/textViewRollingYear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="24000 KwH"
+                    android:textColor="@color/brightgreen"/>
+
+                <TextView
+                    android:id="@+id/textViewTotalAveMo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="2000 KwH"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/textViewRollingAveMo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="4000 KwH"
+                    android:textColor="@color/brightgreen"/>
+
+                <TextView
+                    android:id="@+id/textViewRollingPeakMo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="6000 KwH"
+                    android:textColor="@color/red"/>
+
+                <TextView
+                    android:id="@+id/textViewRollingLowMo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="4000 KwH"
+                    android:textColor="@color/brightgreen"/>
+
+                <TextView
+                    android:id="@+id/textViewLastMo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="4000 KwH"
+                    android:textColor="@color/brightgreen"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/chart_minor"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/grey">
+        </LinearLayout>
+
+</LinearLayout>

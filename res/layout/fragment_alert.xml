@@ -1,0 +1,226 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#00FF00"
+    tools:context="com.adaptivehandyapps.ahasee.SeeActivity$PlaceholderFragment">
+
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textViewTitle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Green Button Export for"
+        android:textColor="@color/brightgreen"
+        android:layout_alignTop="@+id/section_label"
+        />
+
+    <TextView
+        android:id="@+id/textViewTitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="8528 PLUM CREEK DR, GAITHERSBURG, MD 20882"
+        android:textColor="@color/aquagreen"
+        android:layout_below="@+id/textViewTitle1"
+        android:layout_toRightOf="@+id/section_label"
+        android:layout_toEndOf="@+id/section_label" />
+
+    <TextView
+        android:id="@+id/textViewDataType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Hourly"
+        android:textColor="@color/aquagreen"
+        android:layout_alignTop="@+id/textViewTitle1"
+        android:layout_toRightOf="@+id/textViewTitle2"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="8dp" />
+
+    <TextView
+        android:id="@+id/textViewTitle3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Energy Delivered"
+        android:textColor="@color/brightgreen"
+        android:layout_alignTop="@+id/textViewTitle1"
+        android:layout_toRightOf="@+id/textViewDataType"/>
+
+    <TextView
+        android:id="@+id/textViewFromDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="01/01/2014"
+        android:textColor="@color/aquagreen"
+        android:layout_below="@+id/textViewDataType"
+        android:layout_toRightOf="@+id/textViewTitle2"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="8dp"/>
+
+    <TextView
+        android:id="@+id/textViewToDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="02/15/2015"
+        android:textColor="@color/aquagreen"
+        android:layout_alignTop="@+id/textViewFromDate"
+        android:layout_toRightOf="@+id/textViewFromDate"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"/>
+
+    <!-- chart & pie -->
+    <LinearLayout
+        android:id="@+id/chart_layout"
+        android:orientation="horizontal"
+        android:layout_below="@+id/textViewTitle2"
+        android:layout_width="832dp"
+        android:layout_height="512dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="8dp"
+        />
+
+    <Button style="?android:attr/buttonStyleSmall"
+            android:id="@+id/buttonStart"
+            android:text="@string/view_next_button_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:textColor="#FFFF00"
+            android:layout_below="@+id/chart_layout"
+            android:layout_alignRight="@+id/chart_layout" />
+
+    <Button style="?android:attr/buttonStyleSmall"
+            android:id="@+id/buttonStop"
+            android:text="@string/view_prev_button_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:textColor="#FFFF00"
+            android:layout_below="@+id/chart_layout"
+            android:layout_alignLeft="@+id/chart_layout"/>
+
+    <RadioGroup
+        android:id="@+id/radioAlert"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignLeft="@+id/chart_layout"
+        android:layout_below="@+id/chart_layout"
+        android:layout_marginTop="64dp"
+        android:layout_marginLeft="64dp">
+
+        <RadioButton
+            android:id="@+id/radioAwayMatch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/away_match_text"
+            android:checked="true"/>
+        <RadioButton
+            android:id="@+id/radioAwayMisMatch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/away_mismatch_text"/>
+
+        <RadioButton
+            android:id="@+id/radioHomeMatch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_match_text"
+            android:layout_marginLeft="32dp"/>
+        <RadioButton
+            android:id="@+id/radioHomeMisMatch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_mismatch_text"
+            android:layout_marginLeft="32dp"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textViewSensitivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Sensitivity"
+        android:textColor="@color/darkgreen"
+        android:layout_alignTop="@+id/chart_layout"
+        android:layout_toRightOf="@+id/chart_layout"
+        android:layout_marginLeft="128dp"
+        android:layout_marginRight="8dp"/>
+
+    <SeekBar
+        android:id="@+id/seekBarSensitivity"
+        android:max="100"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewSensitivity"
+        android:layout_toRightOf="@+id/chart_layout"
+        android:layout_marginLeft="32dp"/>
+
+    <Button style="?android:attr/buttonStyleSmall"
+            android:id="@+id/buttonSaveFinding"
+            android:text="Save Finding"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:textColor="#000000"
+            android:background="#999999"
+            android:layout_below="@+id/seekBarSensitivity"
+            android:layout_toRightOf="@+id/chart_layout"
+            android:layout_marginLeft="112dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="32dp"/>
+
+    <Button style="?android:attr/buttonStyleSmall"
+            android:id="@+id/buttonPrevFinding"
+            android:text="Prev Finding"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:textColor="#000000"
+            android:background="#999999"
+            android:layout_below="@+id/buttonSaveFinding"
+            android:layout_toRightOf="@+id/chart_layout"
+            android:layout_marginLeft="32dp"
+        />
+
+    <Button style="?android:attr/buttonStyleSmall"
+            android:id="@+id/buttonNextFinding"
+            android:text="Next Finding"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:textColor="#000000"
+            android:background="#999999"
+            android:layout_below="@+id/buttonSaveFinding"
+            android:layout_toRightOf="@+id/buttonPrevFinding"
+            android:layout_marginLeft="64dp"
+        />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="256dp"
+        android:layout_height="256dp"
+        android:minDate="01/01/2014"
+        android:maxDate="02/15/2015"
+        android:background="@color/lightgrey"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_alignBottom="@+id/chart_layout"
+        android:layout_toRightOf="@+id/chart_layout"
+        android:layout_marginLeft="32dp"
+    />
+
+</RelativeLayout>
