@@ -7,6 +7,4 @@ Features:
 
 For PlayStore listing please see https://play.google.com/store/apps/details?id=com.adaptivehandyapps.ahasee
 
-![alt text](https://github.com/blu3crab/AhaSee/blob/master/AhaSeeOverviewDiagram.png)
-
 ![Screenshot](AhaSeeOverviewDiagram.png)
