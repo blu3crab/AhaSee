@@ -6,3 +6,5 @@ Features:
 - Android Chart Engine based graphs, charts, visualizations
 
 For PlayStore listing please see https://play.google.com/store/apps/details?id=com.adaptivehandyapps.ahasee
+
+![alt text](https://raw.githubusercontent.com/blu3crab/AhaSee/AhaSeeOverviewDiagram.png)
