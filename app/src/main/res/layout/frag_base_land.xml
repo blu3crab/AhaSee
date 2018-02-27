@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingTop="@dimen/activity_vertical_margin"
+              android:background="#00FF00"
+              tools:context="com.adaptivehandyapps.ahasee.SeeActivity$PlaceholderFragment">
+
+    <!-- L1 title -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title">
+
+        <TextView
+            android:id="@+id/textViewTitle1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Green Button Export for "
+            android:textColor="@color/brightgreen"/>
+        <TextView
+            android:id="@+id/textViewLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="PLUM CREEK DR, GAITHERSBURG, MD 20882"
+            android:textColor="@color/aquagreen"/>
+
+        <TextView
+            android:id="@+id/textViewTitle3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:text="Energy Delivered Hourly: "
+            android:textColor="@color/brightgreen"/>
+        <TextView
+            android:id="@+id/textViewFromToDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="to from date"
+            android:textColor="@color/aquagreen"/>
+
+    </LinearLayout>
+    <!-- L1 chart/details -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:id="@+id/chart_details">
+
+        <!-- L2 major chart -->
+        <LinearLayout
+            android:id="@+id/chart_major"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/grey">
+        </LinearLayout>
+        <!-- L2 details android:background="@color/grey"-->
+        <include layout="@layout/frag_base_detail"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="0dp"
+        android:id="@+id/base_controls"
+        android:visibility="visible">
+
+        <!-- L1 controls -->
+        <include layout="@layout/frag_base_control"/>
+    </LinearLayout>
+
+</LinearLayout>

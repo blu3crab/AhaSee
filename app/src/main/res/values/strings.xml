@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">AhaSee</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_package">com.adaptivehandyapps.app</string>
+
+    <string name="start_activity">Launching activity.</string>
+
+    <!-- file system -->
+    <!--string name="espi_feed_dir">ElectricUtilityFeed</string-->
+    <string name="custom_baseline_dir">CustomBaselines</string>
+
+    <!-- tab titles -->
+    <string name="title_activity_see">SEE</string>
+    <string name="title_section1">Summarize</string>
+    <string name="title_section2">Baseline</string>
+    <string name="title_section3">Compare</string>
+
+    <!-- chart types-->
+    <string name="chart_type_area">Area</string>
+    <string name="chart_type_line">Line</string>
+    <string name="chart_type_bar">Bar</string>
+    <string name="chart_type_pie">Pie</string>
+    <string name="chart_type_donut">Donut</string>
+
+    <!-- summarize text -->
+
+    <string name="summarize_button_refresh">"Refresh GB"</string>
+    <string name="summarize_button_remove">"Remove GB"</string>
+    <string name="summarize_gb_all">"All "</string>
+    <string name="summarize_gb_latest">"Most Recent "</string>
+
+    <string name="total_kwh_label">"Total KwH (year) "</string>
+    <string name="total_dollar_label">"Total $$$ (year) "</string>
+
+    <string name="avemo_label_kwh">"Average KwH (month) "</string>
+    <string name="avemo_label_dollar">"Average $$$ (month) "</string>
+
+    <string name="peakmo_label_kwh">"Peak Monthly KwH  "</string>
+    <string name="peakmo_label_dollar">"Peak Monthly $$$ "</string>
+    <string name="lowmo_label_kwh">"Low Monthly KwH "</string>
+    <string name="lowmo_label_dollar">"Low Monthly $$$ "</string>
+
+    <string name="delta_label_kwh">"Last Month Delta KwH "</string>
+    <string name="delta_label_dollar">"Last Month Delta $$$ "</string>
+
+    <!-- baseline away/home text -->
+    <string name="away_match_text">"Typical Away Match"</string>
+    <string name="away_mismatch_text">"Typical Away Mis-Match"</string>
+    <string name="home_match_text">"Typical Home Match"</string>
+    <string name="home_mismatch_text">"Typical Home Mis-Match"</string>
+
+    <string name="typical_away_text">"Typical Away"</string>
+    <string name="typical_home_text">"Typical Home"</string>
+
+    <string name="alert_away_title">"Alert for Away Watts"</string>
+    <string name="alert_home_title">"Alert for Home Watts"</string>
+    <string name="typical_away_title">"Typical Away Watts"</string>
+    <string name="typical_home_title">"Typical Home Watts"</string>
+
+    <!-- baseline text -->
+
+    <string name="baseline_button_save_baseline">"Save As Baseline"</string>
+    <string name="baseline_button_remove_baseline">"Remove Baseline"</string>
+    <string name="baseline_button_new_baseline">"Create New Baseline"</string>
+    <string name="baseline_button_cancel_baseline">"Cancel New Baseline"</string>
+    <string name="baseline_algo_label">"Algorithm"</string>
+    <string name="baseline_days_label">"# Days"</string>
+
+    <string name="baseline_algo_none">"Raw"</string>
+    <string name="baseline_algo_average">"Average"</string>
+    <string name="baseline_algo_mid">"Mean"</string>
+    <string name="baseline_algo_max">"Max"</string>
+    <string name="baseline_algo_min">"Min"</string>
+
+    <string name="total_day_label">"Total KwH for Day"</string>
+    <string name="ave_day_label">"Average Kwh Hour"</string>
+    <string name="peak_day_label">"Peak Kwh Hour"</string>
+    <string name="low_day_label">"Low KwH Hour"</string>
+
+    <!-- compare -->
+    <string name="compare_column1_label">"Metric Units"</string>
+    <string name="compare_column2_label">"Baseline"</string>
+    <string name="compare_column3_label">"Current"</string>
+
+    <string name="next_button_text">Next</string>
+    <string name="prev_button_text">Prev</string>
+    <string name="button_next_baseline">"Cycle Baselines"</string>
+
+    <!-- achartdemo -->
+
+    <string name="add_values">Add values to the chart</string>
+    <string name="x">X</string>
+    <string name="y">Y</string>
+    <string name="add">Add</string>
+    <string name="new_series">New series</string>
+
+
+</resources>

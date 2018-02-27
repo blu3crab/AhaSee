@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/frag_base_detail">
+
+    <!-- L2 details android:background="@color/grey"-->
+    <LinearLayout
+        android:id="@+id/details"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/detail_text">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/labels">
+
+                <TextView
+                    android:id="@+id/textViewTotalDayLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/total_day_label"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/textViewAveDayLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/ave_day_label"
+                    android:textColor="@color/aquagreen"/>
+
+                <TextView
+                    android:id="@+id/textViewPeakDayLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/peak_day_label"
+                    android:textColor="@color/aquagreen"/>
+
+                <TextView
+                    android:id="@+id/textViewLowDayLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/low_day_label"
+                    android:textColor="@color/aquagreen"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:id="@+id/info">
+
+                <TextView
+                    android:id="@+id/textViewTotalDay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="120 KwH"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:id="@+id/textViewAveDay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="5 Kwh"
+                    android:textColor="@color/red"/>
+
+                <TextView
+                    android:id="@+id/textViewPeakDay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="10 Kwh"
+                    android:textColor="@color/red"/>
+
+                <TextView
+                    android:id="@+id/textViewLowDay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="1 KwH"
+                    android:textColor="@color/brightgreen"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp">
+
+            <CalendarView
+                android:id="@+id/calendarView"
+                android:layout_width="256dp"
+                android:layout_height="224dp"
+                android:minDate="01/01/2014"
+                android:maxDate="01/01/2014"
+                android:background="@color/lightgrey"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginLeft="32dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

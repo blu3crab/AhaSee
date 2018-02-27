@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="@dimen/activity_horizontal_margin"
+              android:id="@+id/frag_sum_detail">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/detail_text">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/labels">
+
+            <TextView
+                android:id="@+id/textViewLastYearLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/total_kwh_label"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/textViewThisYearLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/total_kwh_label"
+                android:textColor="@color/aquagreen"/>
+
+            <TextView
+                android:id="@+id/textViewLastYearAveMoLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/avemo_label_kwh"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/textViewThisYearAveMoLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/avemo_label_kwh"
+                android:textColor="@color/aquagreen"/>
+
+            <TextView
+                android:id="@+id/textViewPeakMoLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/peakmo_label_kwh"
+                android:textColor="@color/aquagreen"/>
+
+            <TextView
+                android:id="@+id/textViewLowMoLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/lowmo_label_kwh"
+                android:textColor="@color/aquagreen"/>
+
+            <TextView
+                android:id="@+id/textViewDeltaLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/delta_label_kwh"
+                android:textColor="@color/aquagreen"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:id="@+id/info">
+
+            <TextView
+                android:id="@+id/textViewTotalLastYear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="24000 KwH"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/textViewTotalThisYear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="24000 KwH"
+                android:textColor="@color/brightgreen"/>
+
+            <TextView
+                android:id="@+id/textViewLastYearAveMo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="2000 KwH"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/textViewThisYearAveMo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="4000 KwH"
+                android:textColor="@color/brightgreen"/>
+
+            <TextView
+                android:id="@+id/textViewThisYearPeakMo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="6000 KwH"
+                android:textColor="@color/red"/>
+
+            <TextView
+                android:id="@+id/textViewThisYearLowMo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="4000 KwH"
+                android:textColor="@color/brightgreen"/>
+
+            <TextView
+                android:id="@+id/textViewDelta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="4000 KwH"
+                android:textColor="@color/brightgreen"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/radioKwhDollar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        >
+
+        <RadioButton
+            android:id="@+id/radioKwh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KwH"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/radioDollar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$$$"/>
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/chart_minor"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/grey">
+    </LinearLayout>
+
+</LinearLayout>

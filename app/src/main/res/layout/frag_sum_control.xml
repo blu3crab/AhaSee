@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/frag_sum_control">
+
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:background="@color/lightgrey"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        >
+        <Button
+            android:id="@+id/buttonPrevYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/prev_button_text"
+            />
+        <Button
+            android:id="@+id/buttonNextYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next_button_text"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Feed:"
+            android:id="@+id/textView2"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            />
+
+        <Spinner
+            android:id="@+id/spinnerFeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"
+            android:entries="@array/spinnerFeedItems"
+            android:background="@color/lightgrey"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        >
+
+        <Button
+            android:id="@+id/buttonRefresh"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:text="@string/summarize_button_refresh"
+            />
+
+        <Button
+            android:id="@+id/buttonRemove"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:text="@string/summarize_button_remove"
+            />
+
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

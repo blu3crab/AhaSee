@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/frag_base_control">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        >
+        <Button
+            android:id="@+id/buttonPrevBaseline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/prev_button_text"
+            />
+        <Button
+            android:id="@+id/buttonNextBaseline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next_button_text"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        >
+
+        <TextView
+            android:id="@+id/textViewAlgoLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/baseline_algo_label"
+            />
+
+        <Spinner
+            android:id="@+id/spinnerAlgo"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"
+            android:entries="@array/spinnerAlgoItems"
+            android:gravity="center"
+            android:background="@color/lightgrey"
+            android:popupBackground="@color/lightgrey"
+            />
+        <TextView
+            android:id="@+id/textViewDaysLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/baseline_days_label"
+            />
+
+        <Spinner
+            android:id="@+id/spinnerDays"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"
+            android:entries="@array/spinnerDaysItems"
+            android:gravity="center"
+            android:background="@color/lightgrey"
+            android:popupBackground="@color/lightgrey"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Baselines:"
+            android:id="@+id/textView2"
+            />
+
+        <Spinner
+            android:id="@+id/spinnerBaseline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:spinnerMode="dropdown"
+            android:entries="@array/spinnerBaselineItems"
+            android:background="@color/lightgrey"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:gravity="right"
+        >
+
+        <Button
+            android:id="@+id/buttonSaveBaseline"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:text="@string/baseline_button_save_baseline"
+            />
+
+        <Button
+            android:id="@+id/buttonRemoveBaseline"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:text="@string/baseline_button_remove_baseline"
+            />
+    </LinearLayout>
+
+</LinearLayout>
