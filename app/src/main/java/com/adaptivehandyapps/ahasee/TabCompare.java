@@ -95,12 +95,9 @@ public class TabCompare {
     //////////////////////////////////////////////////////////////////////////////////////////
     private FeedManager getFeedManager() { return mFeedManager; }
     //////////////////////////////////////////////////////////////////////////////////////////
-
-//    public TabCompare(SeeActivity parentActivity, LayoutInflater inflater, ViewGroup container) {
-//
-//        mContext = parentActivity;
     public TabCompare(Context c, LayoutInflater inflater, ViewGroup container) {
 
+        Log.d(TAG, "inflating layout for RootView.");
         // get feed manager instance
         mContext = c;
         mFeedManager = FeedManager.getInstance(mContext, null);

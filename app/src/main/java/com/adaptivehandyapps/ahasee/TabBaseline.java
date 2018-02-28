@@ -134,6 +134,7 @@ public class TabBaseline {
     //////////////////////////////////////////////////////////////////////////////////////////
     public TabBaseline(Context c, LayoutInflater inflater, ViewGroup container) {
 
+        Log.d(TAG, "inflating layout for RootView.");
         // get feed manager instance
         mContext = c;
         mFeedManager = FeedManager.getInstance(mContext, null);

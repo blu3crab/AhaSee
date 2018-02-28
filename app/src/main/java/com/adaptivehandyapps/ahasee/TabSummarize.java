@@ -105,6 +105,7 @@ public class TabSummarize {
     //////////////////////////////////////////////////////////////////////////////////////////
     public TabSummarize(Context c, LayoutInflater inflater, ViewGroup container) {
 
+        Log.d(TAG, "inflating layout for RootView.");
         mContext = c;
         // get feed manager instance
         mProgressCallback = getProgressCallback();

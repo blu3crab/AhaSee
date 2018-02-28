@@ -289,6 +289,11 @@ public class FeedManager {
             String toDate = ChartUtils.secsToDate(mToTimeSecs, false);
             PrefUtils.setPrefsFeedToDate(mContext, toDate);
             Log.d(TAG, "loadEspiReadingIntervals from-to date " + PrefUtils.getPrefsFeedFromDate(mContext) + "-" + PrefUtils.getPrefsFeedToDate(mContext));
+
+            // TODO: if current to/from display dates are not valid (or defaults)
+            // set display from/to date to most recent date (to)
+            PrefUtils.setPrefsFromDate(mContext, toDate);
+            PrefUtils.setPrefsToDate(mContext, toDate);
         }
 
         return isValidFeed();

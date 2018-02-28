@@ -64,6 +64,8 @@ public class TabSumDetailFragment extends Fragment {
                              Bundle savedInstanceState) {
 //        mRootView = inflater.inflate(R.layout.frag_sum_detail, container, false);
 
+        Log.d(TAG, "inflating layout for RootView.");
+
         try {
             mRootView = inflater.inflate(R.layout.frag_sum_detail, container, false);
             if ( getActivity().getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE) {

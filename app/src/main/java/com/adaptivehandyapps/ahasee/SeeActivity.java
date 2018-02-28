@@ -45,8 +45,8 @@ public class SeeActivity extends ActionBarActivity implements ActionBar.TabListe
     public final static String[] EXTERNAL_PERMS = {Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.READ_EXTERNAL_STORAGE};
     public final static int EXTERNAL_REQUEST = 138;
 
-    private static SeeActivity mParentActivity;
-
+//    private static SeeActivity mParentActivity;
+//
     ////////////////////////////////////////////////////////////////////////////////////////////////
     // ViewPager controls
     private static final int TAB_TOTAL_PAGES = 3;
@@ -58,7 +58,7 @@ public class SeeActivity extends ActionBarActivity implements ActionBar.TabListe
     private static TabBaseline mTabBaseline = null;
     private static TabCompare mTabCompare = null;
 
-    private static boolean mIsSaveInstanceState = false;
+//    private static boolean mIsSaveInstanceState = false;
 
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
@@ -130,8 +130,8 @@ public class SeeActivity extends ActionBarActivity implements ActionBar.TabListe
         final ActionBar actionBar = getSupportActionBar();
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
 
-        // retain SeeActivity
-        mParentActivity = this;
+//        // retain SeeActivity
+//        mParentActivity = this;
 
 //        // instantiate feed manager
 //        mProgressCallback = getProgressCallback();
@@ -227,7 +227,7 @@ public class SeeActivity extends ActionBarActivity implements ActionBar.TabListe
     @Override
     protected void onSaveInstanceState(Bundle savedInstanceState) {
         super.onSaveInstanceState(savedInstanceState);
-        mIsSaveInstanceState = true;
+//        mIsSaveInstanceState = true;
         Log.v(TAG, "onSaveInstanceState");
     }
     @Override
@@ -356,15 +356,15 @@ public class SeeActivity extends ActionBarActivity implements ActionBar.TabListe
 
             switch (sectionNumber) {
                 case TAB_SUMMARIZE:
-                    mTabSummarize = new TabSummarize(mParentActivity, inflater, container);
+                    mTabSummarize = new TabSummarize(getActivity(), inflater, container);
                     rootView = mTabSummarize.getRootView();
                     break;
                 case TAB_BASELINE:
-                    mTabBaseline = new TabBaseline(mParentActivity, inflater, container);
+                    mTabBaseline = new TabBaseline(getActivity(), inflater, container);
                     rootView = mTabBaseline.getRootView();
                     break;
                 case TAB_COMPARE:
-                    mTabCompare = new TabCompare(mParentActivity, inflater, container);
+                    mTabCompare = new TabCompare(getActivity(), inflater, container);
                     rootView = mTabCompare.getRootView();
                     break;
                 default:
@@ -375,10 +375,11 @@ public class SeeActivity extends ActionBarActivity implements ActionBar.TabListe
         @Override
         public void onDestroyView() {
             super.onDestroyView();
-            if (!mIsSaveInstanceState) {
+//            Log.v(TAG, "onDestroyView: invoked with mIsSaveInstanceState " + mIsSaveInstanceState);
+//            if (!mIsSaveInstanceState) {
                 getFragmentManager().beginTransaction().remove(this).commit();
-            }
-            Log.v(TAG, "onDestroyView: destroying fragment.");
+                Log.v(TAG, "onDestroyView: destroying fragment " + this.toString());
+//            }
         }
     }
 

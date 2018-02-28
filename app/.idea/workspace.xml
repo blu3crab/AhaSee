@@ -6,84 +6,19 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="onRestoreInstanceState" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2c02a7d-5f7f-41a9-b82d-20d1db623706" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../java/com/adaptivehandyapps/ahasee/Baseline.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../java/com/adaptivehandyapps/ahasee/BroadcastUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../java/com/adaptivehandyapps/ahasee/ChartRender.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../java/com/adaptivehandyapps/ahasee/ChartUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../java/com/adaptivehandyapps/ahasee/DevUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../java/com/adaptivehandyapps/ahasee/FileUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../java/com/adaptivehandyapps/ahasee/PrefUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../java/com/adaptivehandyapps/ahasee/SeeActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../java/com/adaptivehandyapps/ahasee/SettingsActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../java/com/adaptivehandyapps/ahasee/TabAlert.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../java/com/adaptivehandyapps/ahasee/TabBaseline.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../java/com/adaptivehandyapps/ahasee/TabCompare.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../java/com/adaptivehandyapps/ahasee/TabSummDetailFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../java/com/adaptivehandyapps/ahasee/TabSummarize.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../java/com/adaptivehandyapps/ahasee/achartdemo/chart/AbstractDemoChart.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../java/com/adaptivehandyapps/ahasee/achartdemo/chart/AverageCubicTemperatureChart.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../java/com/adaptivehandyapps/ahasee/achartdemo/chart/AverageTemperatureChart.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../java/com/adaptivehandyapps/ahasee/achartdemo/chart/BudgetDoughnutChart.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../java/com/adaptivehandyapps/ahasee/achartdemo/chart/BudgetPieChart.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../java/com/adaptivehandyapps/ahasee/achartdemo/chart/CombinedTemperatureChart.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../java/com/adaptivehandyapps/ahasee/achartdemo/chart/IDemoChart.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../java/com/adaptivehandyapps/ahasee/achartdemo/chart/MultipleTemperatureChart.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../java/com/adaptivehandyapps/ahasee/achartdemo/chart/PieChartBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../java/com/adaptivehandyapps/ahasee/achartdemo/chart/ProjectStatusBubbleChart.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../java/com/adaptivehandyapps/ahasee/achartdemo/chart/ProjectStatusChart.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../java/com/adaptivehandyapps/ahasee/achartdemo/chart/SalesBarChart.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../java/com/adaptivehandyapps/ahasee/achartdemo/chart/SalesComparisonChart.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../java/com/adaptivehandyapps/ahasee/achartdemo/chart/SalesGrowthChart.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../java/com/adaptivehandyapps/ahasee/achartdemo/chart/SalesStackedBarChart.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../java/com/adaptivehandyapps/ahasee/achartdemo/chart/ScatterChart.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../java/com/adaptivehandyapps/ahasee/achartdemo/chart/SensorValuesChart.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../java/com/adaptivehandyapps/ahasee/achartdemo/chart/TemperatureChart.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../java/com/adaptivehandyapps/ahasee/achartdemo/chart/TrigonometricFunctionsChart.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../java/com/adaptivehandyapps/ahasee/achartdemo/chart/WeightDialChart.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../java/com/adaptivehandyapps/ahasee/achartdemo/chart/XYChartBuilder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../java/com/adaptivehandyapps/ahasee/achartdemo/chart/XYChartBuilderBackup.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../java/com/adaptivehandyapps/ahasee/espi/EspiDbDal.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../java/com/adaptivehandyapps/ahasee/espi/EspiDbHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../java/com/adaptivehandyapps/ahasee/espi/EspiIntervalReading.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../java/com/adaptivehandyapps/ahasee/espi/EspiXmlParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../java/com/adaptivehandyapps/ahasee/espi/FeedManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/layout-sw600dp/frag_base_land.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/layout-sw600dp/frag_base_port.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/layout-sw600dp/frag_compare_land.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/layout-sw600dp/frag_compare_port.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/layout-sw600dp/frag_sum_detail.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/layout-sw600dp/frag_sum_land.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/layout-sw600dp/frag_sum_port.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/layout/activity_see.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/layout/frag_base_land.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/layout/frag_base_port.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/layout/frag_compare_land.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/layout/frag_compare_port.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/layout/frag_sum_detail.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/layout/frag_sum_land.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/layout/frag_sum_port.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/layout/fragment_alert.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/layout/xy_chart.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/menu/menu_see.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/mipmap-hdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/mipmap-mdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/mipmap-xhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/mipmap-xxhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/values/arrays.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/values/colors.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/values/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/values/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/values/strings_activity_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/values/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/xml/pref_data_sync.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/xml/pref_general.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/xml/pref_headers.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../res/xml/pref_notification.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/adaptivehandyapps/ahasee/SeeActivity.java" afterPath="$PROJECT_DIR$/src/main/java/com/adaptivehandyapps/ahasee/SeeActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/adaptivehandyapps/ahasee/TabBaseline.java" afterPath="$PROJECT_DIR$/src/main/java/com/adaptivehandyapps/ahasee/TabBaseline.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/adaptivehandyapps/ahasee/TabCompare.java" afterPath="$PROJECT_DIR$/src/main/java/com/adaptivehandyapps/ahasee/TabCompare.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/adaptivehandyapps/ahasee/TabSumDetailFragment.java" afterPath="$PROJECT_DIR$/src/main/java/com/adaptivehandyapps/ahasee/TabSumDetailFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/adaptivehandyapps/ahasee/TabSummarize.java" afterPath="$PROJECT_DIR$/src/main/java/com/adaptivehandyapps/ahasee/TabSummarize.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/adaptivehandyapps/ahasee/espi/FeedManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/adaptivehandyapps/ahasee/espi/FeedManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/res/layout/frag_sum_land.xml" afterPath="$PROJECT_DIR$/src/main/res/layout/frag_sum_land.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -123,11 +58,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SeeActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SeeActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/adaptivehandyapps/ahasee/SeeActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="50" column="25" lean-forward="false" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+            <state relative-caret-position="148">
+              <caret line="378" column="0" lean-forward="false" selection-start-line="378" selection-start-column="0" selection-end-line="378" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,27 +70,100 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+      <file leaf-file-name="frag_sum_land.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/res/layout/frag_sum_land.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="326">
+              <caret line="84" column="24" lean-forward="false" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TabBaseline.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TabSumDetailFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/adaptivehandyapps/ahasee/TabSumDetailFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TabSummarize.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/adaptivehandyapps/ahasee/TabSummarize.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="108" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TabBaseline.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/adaptivehandyapps/ahasee/TabBaseline.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="483" column="28" lean-forward="false" selection-start-line="483" selection-start-column="28" selection-end-line="483" selection-end-column="28" />
+            <state relative-caret-position="5304">
+              <caret line="562" column="20" lean-forward="false" selection-start-line="562" selection-start-column="20" selection-end-line="562" selection-end-column="20" />
+              <folding>
+                <element signature="e#4318#4366#0" expanded="true" />
+                <element signature="e#5481#6053#0" expanded="true" />
+                <element signature="e#6052#6053#0" expanded="true" />
+                <element signature="e#6191#6751#0" expanded="true" />
+                <element signature="e#6750#6751#0" expanded="true" />
+                <element signature="e#6879#6916#0" expanded="true" />
+                <element signature="e#7006#8529#0" expanded="true" />
+                <element signature="e#7271#7309#0" expanded="true" />
+                <element signature="e#7362#7402#0" expanded="true" />
+                <element signature="e#7942#7979#0" expanded="true" />
+                <element signature="e#8032#8072#0" expanded="true" />
+                <element signature="e#8528#8529#0" expanded="true" />
+                <element signature="e#8674#9008#0" expanded="true" />
+                <element signature="e#9007#9008#0" expanded="true" />
+                <element signature="e#16187#17829#0" expanded="true" />
+                <element signature="e#17828#17829#0" expanded="true" />
+                <element signature="e#19595#19603#0" expanded="true" />
+                <element signature="e#33581#33631#0" expanded="true" />
+                <element signature="e#33669#33716#0" expanded="true" />
+                <element signature="e#33756#33802#0" expanded="true" />
+                <element signature="e#34098#34144#0" expanded="true" />
+                <element signature="e#34265#34311#0" expanded="true" />
+                <element signature="e#34432#34478#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TabCompare.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/adaptivehandyapps/ahasee/TabCompare.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FeedManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/adaptivehandyapps/ahasee/espi/FeedManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="294" column="51" lean-forward="false" selection-start-line="294" selection-start-column="51" selection-end-line="294" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>setPrefs</find>
+      <find>mParentActivity</find>
+    </findStrings>
   </component>
   <component name="GenerateSignedApkSettings">
     <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/../../AhaKeyStore/android.jks" />
@@ -1942,7 +1950,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/adaptivehandyapps/ahasee/espi/FeedManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/adaptivehandyapps/ahasee/TabSummarize.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/adaptivehandyapps/ahasee/TabBaseline.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/adaptivehandyapps/ahasee/TabCompare.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/adaptivehandyapps/ahasee/TabSumDetailFragment.java" />
+        <option value="$PROJECT_DIR$/src/main/res/layout/frag_sum_land.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/adaptivehandyapps/ahasee/SeeActivity.java" />
       </list>
     </option>
   </component>
@@ -1981,6 +1995,102 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Gradle Scripts" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidBuildScriptsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AhaSee" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AhaSee" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AhaSee" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AhaSee" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ahasee" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AhaSee" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ahasee" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="espi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AhaSee" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -2082,7 +2192,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519685401083" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519834384777" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2130,7 +2240,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519685401083" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519834384778" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2162,6 +2272,27 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
@@ -2292,7 +2423,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519685401086" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1519834384779" />
       </method>
     </configuration>
     <list size="1">
@@ -2320,6 +2451,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -2335,45 +2469,68 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1943" y="48" width="1600" height="1023" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2" sideWeight="0.4974026" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32947975" sideWeight="0.4974026" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32947975" sideWeight="0.4974026" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5025974" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18506494" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18246754" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2" sideWeight="0.4974026" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" x="3497" y="571" width="336" height="294" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5025974" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.4974026" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18506494" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="3497" y="571" width="336" height="294" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.4974026" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/adaptivehandyapps/ahasee/TabSummarize.java</url>
+          <line>108</line>
+          <properties />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/adaptivehandyapps/ahasee/SeeActivity.java</url>
+          <line>353</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/adaptivehandyapps/ahasee/SeeActivity.java</url>
+          <line>378</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -2399,7 +2556,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7650">
           <caret line="483" column="28" lean-forward="false" selection-start-line="483" selection-start-column="28" selection-end-line="483" selection-end-column="28" />
-          <folding />
+          <folding>
+            <element signature="e#4318#4366#0" expanded="true" />
+            <element signature="e#5481#6053#0" expanded="true" />
+            <element signature="e#6052#6053#0" expanded="true" />
+            <element signature="e#6191#6751#0" expanded="true" />
+            <element signature="e#6750#6751#0" expanded="true" />
+            <element signature="e#6879#6916#0" expanded="true" />
+            <element signature="e#7006#8529#0" expanded="true" />
+            <element signature="e#7271#7309#0" expanded="true" />
+            <element signature="e#7362#7402#0" expanded="true" />
+            <element signature="e#7942#7979#0" expanded="true" />
+            <element signature="e#8032#8072#0" expanded="true" />
+            <element signature="e#8528#8529#0" expanded="true" />
+            <element signature="e#8674#9008#0" expanded="true" />
+            <element signature="e#9007#9008#0" expanded="true" />
+            <element signature="e#16187#17829#0" expanded="true" />
+            <element signature="e#17828#17829#0" expanded="true" />
+            <element signature="e#19595#19603#0" expanded="true" />
+            <element signature="e#33581#33631#0" expanded="true" />
+            <element signature="e#33669#33716#0" expanded="true" />
+            <element signature="e#33756#33802#0" expanded="true" />
+            <element signature="e#34098#34144#0" expanded="true" />
+            <element signature="e#34265#34311#0" expanded="true" />
+            <element signature="e#34432#34478#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2466,21 +2647,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/adaptivehandyapps/ahasee/SeeActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/adaptivehandyapps/ahasee/espi/FeedManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="50" column="25" lean-forward="false" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="327">
+          <caret line="294" column="51" lean-forward="false" selection-start-line="294" selection-start-column="51" selection-end-line="294" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/adaptivehandyapps/ahasee/TabCompare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../Tools/Android/sdk/extras/android/m2repository/com/android/support/support-fragment/24.2.1/support-fragment-24.2.1-sources.jar!/android/support/v4/app/Fragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="631" column="0" lean-forward="false" selection-start-line="631" selection-start-column="0" selection-end-line="631" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/adaptivehandyapps/ahasee/TabBaseline.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="483" column="28" lean-forward="false" selection-start-line="483" selection-start-column="28" selection-end-line="483" selection-end-column="28" />
+        <state relative-caret-position="5304">
+          <caret line="562" column="20" lean-forward="false" selection-start-line="562" selection-start-column="20" selection-end-line="562" selection-end-column="20" />
+          <folding>
+            <element signature="e#4318#4366#0" expanded="true" />
+            <element signature="e#5481#6053#0" expanded="true" />
+            <element signature="e#6052#6053#0" expanded="true" />
+            <element signature="e#6191#6751#0" expanded="true" />
+            <element signature="e#6750#6751#0" expanded="true" />
+            <element signature="e#6879#6916#0" expanded="true" />
+            <element signature="e#7006#8529#0" expanded="true" />
+            <element signature="e#7271#7309#0" expanded="true" />
+            <element signature="e#7362#7402#0" expanded="true" />
+            <element signature="e#7942#7979#0" expanded="true" />
+            <element signature="e#8032#8072#0" expanded="true" />
+            <element signature="e#8528#8529#0" expanded="true" />
+            <element signature="e#8674#9008#0" expanded="true" />
+            <element signature="e#9007#9008#0" expanded="true" />
+            <element signature="e#16187#17829#0" expanded="true" />
+            <element signature="e#17828#17829#0" expanded="true" />
+            <element signature="e#19595#19603#0" expanded="true" />
+            <element signature="e#33581#33631#0" expanded="true" />
+            <element signature="e#33669#33716#0" expanded="true" />
+            <element signature="e#33756#33802#0" expanded="true" />
+            <element signature="e#34098#34144#0" expanded="true" />
+            <element signature="e#34265#34311#0" expanded="true" />
+            <element signature="e#34432#34478#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/adaptivehandyapps/ahasee/TabSummarize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="108" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/adaptivehandyapps/ahasee/TabSumDetailFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/res/layout/frag_sum_land.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="84" column="24" lean-forward="false" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/adaptivehandyapps/ahasee/SeeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="378" column="0" lean-forward="false" selection-start-line="378" selection-start-column="0" selection-end-line="378" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
