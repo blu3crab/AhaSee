@@ -50,7 +50,7 @@ public class PrefUtils {
 
     private static final Boolean PREFS_DEFAULT_SHOWDOLLARS = false;
 
-    private static final String PREFS_DEFAULT_ALGORITHM = "None";
+    private static final String PREFS_DEFAULT_ALGORITHM = "Raw";
     private static final Integer PREFS_DEFAULT_STACKLIMIT = 0;
     private static final Integer PREFS_DEFAULT_BASELINEINX = 0;
 

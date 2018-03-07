@@ -337,6 +337,7 @@ public class TabCompare {
         }
         // set baseline file to show
         String path = pathList.get(mShowBaselineInx);
+        Log.v(TAG, "getBaseline path: " + path);
         // read json
         String json = FileUtils.readFeed(path);
         Log.v(TAG, "getBaseline json: " + json);

@@ -611,6 +611,7 @@ public class TabBaseline {
                 mFromTimeSecs, mToTimeSecs, mStackLimit, chartType, true, mChartLayoutX, mChartLayoutY);
 
         ChartUtils.showFeed(chartControl, true);
+        loadLineChart(chartControl, mAlgorithm);
 
         return true;
     }
@@ -641,7 +642,7 @@ public class TabBaseline {
 
         // derive baseline values
         mBaselineValues = deriveBaselineValues(chartControl, algorithm);
-        Log.v(TAG, "loadLineChart mBaselineValues: " + mBaselineValues);
+        Log.v(TAG, "loadLineChart derived mBaselineValues: " + mBaselineValues);
         chartControl.chartRender.addSeriesLabels(valueRange);
         chartControl.chartRender.addSeries(mBaselineValues);
         // label chart
@@ -782,16 +783,17 @@ public class TabBaseline {
         if (mBaselineValues != null && mBaselineValues.size() <= 0) {
             Toast.makeText(mRootView.getContext(), "Please generate a baseline to save.", Toast.LENGTH_SHORT).show();
         }
-        // reset stack limit
-        mStackLimit = 0;
-        PrefUtils.setPrefsStackLimit(mContext, mStackLimit);
-        // show baseline to derive values according to algorithm
-        showBaselineUsage(mAlgorithm);
-
+//        // reset stack limit
+//        mStackLimit = 0;
+//        PrefUtils.setPrefsStackLimit(mContext, mStackLimit);
+//        // show baseline to derive values according to algorithm
+//        showBaselineUsage(mAlgorithm);
+//
         // build filename: baseline + algo + days + date
         String date = ChartUtils.secsToDate(mFromTimeSecs, false);
         String filename = "baseline_" + mAlgorithm + "_" + (mStackLimit + 1) + "_days_" + date + ".json";
         Log.v(TAG, "saveBaseline: filename " + filename);
+        Log.v(TAG, "saveBaseline mBaselineValues: " + mBaselineValues);
 
         // init GSON object
         Baseline b = new Baseline();
@@ -831,6 +833,13 @@ public class TabBaseline {
             Toast.makeText(mRootView.getContext(), "Unable to save baseline.", Toast.LENGTH_SHORT).show();
             return false;
         }
+
+        // reset stack limit to show consolidated baseline
+        mStackLimit = 0;
+        PrefUtils.setPrefsStackLimit(mContext, mStackLimit);
+        // show baseline to derive values according to algorithm
+        showBaselineUsage(mAlgorithm);
+
         // confirm baseline created
         Toast.makeText(mRootView.getContext(), "Baseline saved to " + filename, Toast.LENGTH_SHORT).show();
 
